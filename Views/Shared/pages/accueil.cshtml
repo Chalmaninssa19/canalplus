@@ -1,0 +1,57 @@
+@model List<canalplus.Models.Chaines>
+
+<h1>Lisitry ny chaines misy eo @ViewBag.Region.Nom</h1>
+<p>Signal de reception @ViewBag.Region.Signal</p>
+<form action="./choice" method="post">
+<input type="hidden" value="1" name="typeAbo"/>
+    <table>
+        <thead>
+            <tr>
+                <th>Click</th>
+                <th>Nom</th>
+                <th>Prix</th>
+                <th>Code reception</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Datas)
+            {
+                <tr>
+                    <td><input type="checkbox" name="chaine" value=@item.Id /></td>
+                    <td>@item.Nom</td>
+                    <td>@item.Prix AR</td>
+                    <td>@item.CodeReception</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input type="submit" value="S'abonner"/>
+</form>
+
+<h1>Listes des bouquets</h1>
+<form action="./choice" method="post">
+    <input type="hidden" value="2" name="typeAbo"/>
+    <table>
+        <thead>
+            <tr>
+                <th>Num</th>
+                <th>Nom</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Bouquets)
+            {
+                <input type="hidden" name="prixPaye" value=@item.PrixBouquet />
+                <tr>
+                    <td><input type="checkbox" name="bouquet" value=@item.IdBouquet /></td>
+                    <td>@item.Id</td>
+                    <td>@item.NomBouquet</td>
+                    <td>@item.PrixBouquet AR</td>
+                    <td><a href="./details?nom=@item.NomBouquet">Voir details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input type="submit" value="S'abonner"/>
+</form>

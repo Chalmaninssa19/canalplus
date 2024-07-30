@@ -1,0 +1,13 @@
+@model List<canalplus.Models.Regions>
+<h1>Bienvenue Chez canalsat</h1>
+<h3>Identifier-vous</h3>
+<form action="./login" method="post">
+    <select name="user">
+        @foreach (var item in ViewBag.Datas)
+        {
+        <option value="@item.Id">@item.Nom</option>
+        }
+    </select>
+    <input type="submit" value="Valider"/>
+</form>
+<p><a href="./inscrire">Creer nouveau</a></p>

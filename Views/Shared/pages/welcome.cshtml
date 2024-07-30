@@ -1,0 +1,12 @@
+@model List<canalplus.Models.Regions>
+<h1>Tongasoa eto aminy canalsat ianao</h1>
+<h3>Aiza no faritra misy anao?</h3>
+<form action="Action" method="post">
+    <select name="region">
+         @foreach (var item in ViewBag.Datas)
+        {
+        <option value="@item.Id">@item.Nom</option>
+        }
+    </select>
+    <input type="submit" value="Valider"/>
+</form>

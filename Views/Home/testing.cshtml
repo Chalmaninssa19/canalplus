@@ -1,0 +1,19 @@
+@model List<canalplus.Models.TestModel>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Âge</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Datas)
+        {
+            <tr>
+                <td>@item.Nom</td>
+                <td>@item.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>

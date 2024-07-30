@@ -1,0 +1,25 @@
+@model List<canalplus.Models.Regions>
+<h1>Details abonnement par bouquet du client @ViewBag.Client.Mdp </h1>
+ <table>
+        <thead>
+            <tr>
+                <th>Bouquets</th>
+                <th>Prix Paye</th>
+                <th>Region</th>
+                <th>DateDebut abonnement</th>
+                <th>DateFin abonnement</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.DetailsAboBouq)
+            {
+                <tr>
+                    <td>@item.NomBouquet</td>
+                    <td>@item.PrixPaye Ar</td>
+                    <td>@item.NomRegion</td>
+                    <td>@item.DateDebut.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@item.DateFin.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                </tr>
+            }
+        </tbody>
+</table>

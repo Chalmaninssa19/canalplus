@@ -1,0 +1,25 @@
+@model List<canalplus.Models.Regions>
+<h1>Bienvenue Chez canalsat</h1>
+<h3>Creer votre compte client</h3>
+<form action="./inscription" method="post">
+    <p>
+        <label>Votre nom</label>
+        <input type="text" name="nom"/>
+    </p>
+    <p>
+        <label>Votre code client</label>
+        <input type="text" name="mdp"/>
+    </p>
+    <p>
+        <label>Choisir votre region :</label>
+        <select name="region">
+            @foreach (var item in ViewBag.Datas)
+            {
+            <option value="@item.Id">@item.Nom</option>
+            }
+        </select>
+    </p>
+    <p>
+        <input type="submit" name="Valider"/>
+    </p>
+</form>

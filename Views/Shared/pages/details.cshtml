@@ -1,0 +1,25 @@
+@model List<canalplus.Models.TestModel>
+
+<h3>Bouquets @ViewBag.Nom avec reduction de @ViewBag.Remise %</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Chaine</th>
+            <th>Prix initial</th>
+            <th>Prix Reduit</th>
+            <th>Code reception</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Details)
+        {
+            <tr>
+                <td>@item.NomChaine</td>
+                <td>@item.PrixInitial AR</td>
+                <td>@item.PrixReduit AR</td>
+                <td>@item.CodeReception</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>Prix Total : @ViewBag.PrixTotal AR</p>

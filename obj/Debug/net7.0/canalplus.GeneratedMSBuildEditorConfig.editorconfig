@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = canalplus
+build_property.RootNamespace = canalplus
+build_property.ProjectDir = E:\cours\course itu\s4\projet\canalplus\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\cours\course itu\s4\projet\canalplus
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Home/testing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0ZXN0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/abonnement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGFib25uZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/accueil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGFjY3VlaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/detailsAbonneBouquet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGRldGFpbHNBYm9ubmVCb3VxdWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/detailsAbonneChaine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGRldGFpbHNBYm9ubmVDaGFpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/identification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGlkZW50aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGluc2NyaXB0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/listAbonne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXGxpc3RBYm9ubmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXHRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/pages/welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhZ2VzXHdlbGNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/cours/course itu/s4/projet/canalplus/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z6qxzs6nkc

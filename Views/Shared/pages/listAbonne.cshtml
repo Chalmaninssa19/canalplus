@@ -1,0 +1,35 @@
+@model List<canalplus.Models.Regions>
+<h1>Listes des clients</h1>
+ <table>
+        <thead>
+            <tr>
+                <th>Code client</th>
+                <th>Nom</th>
+                <th>Etat</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.UsersChaine)
+            {
+                <tr>
+                    <td>@item.CodeClient</td>
+                    <td>@item.NomUser</td>
+                    <td>@item.Etat</td>
+                    <td><a href="./detailsAbo?idUser=@item.IdUser&&type=0">details abonnement</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+ <table>
+        <tbody>
+            @foreach (var item in ViewBag.UsersBouq)
+            {
+                <tr>
+                    <td>@item.CodeClient</td>
+                    <td>@item.NomUser</td>
+                    <td>@item.Etat</td>
+                    <td><a href="./detailsAbo?idUser=@item.IdUser&&type=1">details abonnement</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
